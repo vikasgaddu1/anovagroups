@@ -96,8 +96,8 @@ const AboutSection = () => {
               <div className="flex items-center space-x-3">
                 <MapPin className="h-8 w-8 text-primary" />
                 <div>
-                  <div className="text-sm font-semibold text-foreground">Morrisville, NC</div>
-                  <div className="text-xs text-muted-foreground">117 Bruington Ct</div>
+                  <div className="text-sm font-semibold text-foreground">Raleigh, NC</div>
+                  <div className="text-xs text-muted-foreground">8801 Fast Park Dr #301</div>
                 </div>
               </div>
             </div>
