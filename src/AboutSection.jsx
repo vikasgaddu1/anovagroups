@@ -32,7 +32,7 @@ const AboutSection = () => {
                 <span className="text-gradient block">Anova Groups?</span>
               </h2>
               <p className="text-xl text-muted-foreground leading-relaxed mb-6">
-                Located in Morrisville, NC, Anova Groups (Gaddu LLC) brings years of consulting expertise to help businesses achieve their goals through innovative strategies and proven methodologies.
+                Located in Raleigh, NC, Anova Groups (Gaddu LLC) brings years of consulting expertise to help businesses achieve their goals through innovative strategies and proven methodologies.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 We understand that every business is unique, which is why we take a personalized approach to consulting. Our team works closely with you to understand your challenges, identify opportunities, and develop strategies that drive sustainable growth.

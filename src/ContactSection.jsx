@@ -213,8 +213,8 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Office Address</h4>
                     <p className="text-muted-foreground">
-                      117 Bruington Ct<br />
-                      Morrisville, NC 27560
+                      8801 Fast Park Dr #301<br />
+                      Raleigh, NC 27617
                     </p>
                   </div>
                 </div>
@@ -226,10 +226,10 @@ const ContactSection = () => {
                   <div>
                     <h4 className="font-semibold text-foreground mb-1">Phone Number</h4>
                     <a 
-                      href="tel:+19195550123" 
+                      href="tel:+18338826682" 
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      (919) 555-0123
+                      (833) 882-6682
                     </a>
                   </div>
                 </div>

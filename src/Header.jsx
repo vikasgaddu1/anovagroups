@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { Button } from './Button'
 import { Menu, X } from 'lucide-react'
+import Logo from './Logo'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -9,9 +10,7 @@ const Header = () => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Services', href: '#services' },
-    { name: 'Portfolio', href: '#portfolio' },
     { name: 'Testimonials', href: '#testimonials' },
-    { name: 'Blog', href: '#blog' },
     { name: 'Contact', href: '#contact' },
   ]
 
@@ -21,11 +20,8 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <a href="#home" className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-primary rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-lg">A</span>
-              </div>
-              <span className="text-xl font-bold text-foreground">Anova Groups</span>
+            <a href="#home">
+              <Logo size="medium" variant="default" />
             </a>
           </div>
 
@@ -44,9 +40,11 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:flex">
-            <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-              Get Consultation
-            </Button>
+            <a href="#contact">
+              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                Get Consultation
+              </Button>
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -77,9 +75,11 @@ const Header = () => {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
-                  Get Consultation
-                </Button>
+                <a href="#contact" className="block">
+                  <Button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground">
+                    Get Consultation
+                  </Button>
+                </a>
               </div>
             </div>
           </div>

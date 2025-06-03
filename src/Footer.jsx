@@ -1,4 +1,5 @@
 import { MapPin, Phone, Mail, Clock } from 'lucide-react'
+import Logo from './Logo'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -9,14 +10,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
-                <span className="text-primary font-bold text-lg">A</span>
-              </div>
-              <span className="text-xl font-bold">Anova Groups</span>
-            </div>
+            <Logo size="medium" variant="white" />
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
-              Professional consulting services in Morrisville, NC. We help businesses achieve their goals through strategic planning, optimization, and expert implementation support.
+              Professional consulting services in Raleigh, NC. We help businesses achieve their goals through strategic planning, optimization, and expert implementation support.
             </p>
           </div>
 
@@ -62,18 +58,18 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 mt-1 text-primary-foreground/80" />
                 <div className="text-sm">
-                  <p className="text-primary-foreground/80">117 Bruington Ct</p>
-                  <p className="text-primary-foreground/80">Morrisville, NC 27560</p>
+                  <p className="text-primary-foreground/80">8801 Fast Park Dr #301</p>
+                  <p className="text-primary-foreground/80">Raleigh, NC 27617</p>
                 </div>
               </div>
               
               <div className="flex items-center space-x-3">
                 <Phone className="h-4 w-4 text-primary-foreground/80" />
                 <a 
-                  href="tel:+1234567890" 
+                  href="tel:+18338826682" 
                   className="text-primary-foreground/80 hover:text-white transition-colors duration-200 text-sm"
                 >
-                  (919) 555-0123
+                  (833) 882-6682
                 </a>
               </div>
               

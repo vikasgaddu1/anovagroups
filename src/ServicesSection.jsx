@@ -58,11 +58,11 @@ const ServicesSection = () => {
             return (
               <div 
                 key={index}
-                className="group bg-card border border-border rounded-lg p-8 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+                className="group bg-white border border-gray-200 rounded-xl p-8 card-hover shadow-sm"
               >
                 {/* Icon */}
-                <div className="w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                  <IconComponent className="h-8 w-8 text-primary" />
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center mb-6 group-hover:from-blue-600 group-hover:to-blue-700 transition-all duration-300 shadow-lg">
+                  <IconComponent className="h-8 w-8 text-white" />
                 </div>
 
                 {/* Content */}
@@ -155,12 +155,16 @@ const ServicesSection = () => {
             Schedule a free consultation to discuss your business challenges and explore how our expertise can help you achieve your goals.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" className="bg-primary hover:bg-primary/90">
-              Schedule Consultation
-            </Button>
-            <Button size="lg" variant="outline">
-              View Case Studies
-            </Button>
+            <a href="#contact">
+              <Button size="lg" className="bg-primary hover:bg-primary/90 glow-effect">
+                Schedule Consultation
+              </Button>
+            </a>
+            <a href="#testimonials">
+              <Button size="lg" variant="outline">
+                View Success Stories
+              </Button>
+            </a>
           </div>
         </div>
       </div>
