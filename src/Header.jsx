@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Button } from '@/components/ui/button'
+import { Button } from './Button'
 import { Menu, X } from 'lucide-react'
 
 const Header = () => {

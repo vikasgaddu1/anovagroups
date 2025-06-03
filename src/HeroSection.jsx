@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button'
+import { Button } from './Button'
 import { ArrowRight, Calendar } from 'lucide-react'
 
 const HeroSection = () => {

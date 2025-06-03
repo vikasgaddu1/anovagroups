@@ -1,10 +1,10 @@
-import Header from './components/layout/Header'
-import Footer from './components/layout/Footer'
-import HeroSection from './components/sections/HeroSection'
-import ServicesSection from './components/sections/ServicesSection'
-import AboutSection from './components/sections/AboutSection'
-import TestimonialsSection from './components/sections/TestimonialsSection'
-import ContactSection from './components/sections/ContactSection'
+import Header from './Header'
+import Footer from './Footer'
+import HeroSection from './HeroSection'
+import ServicesSection from './ServicesSection'
+import AboutSection from './AboutSection'
+import TestimonialsSection from './TestimonialsSection'
+import ContactSection from './ContactSection'
 import './App.css'
 
 function App() {

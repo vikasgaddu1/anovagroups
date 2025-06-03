@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button'
+import { Button } from './Button'
 import { CheckCircle, Users, Award, MapPin } from 'lucide-react'
 
 const AboutSection = () => {

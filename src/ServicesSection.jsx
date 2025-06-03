@@ -1,4 +1,4 @@
-import { Button } from '@/components/ui/button'
+import { Button } from './Button'
 import { Target, TrendingUp, Settings, ArrowRight } from 'lucide-react'
 
 const ServicesSection = () => {
